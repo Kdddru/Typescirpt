@@ -47,6 +47,7 @@ callName('김두현');
 
 
 function printLength(x ?: number):void{
+  //typescript에선 확실한것을 좋아하기때문에
   if(x){
     console.log(x.toString().length);
   }
