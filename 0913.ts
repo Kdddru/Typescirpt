@@ -71,6 +71,3 @@ let newPerson: newPersonalInformation ={
   adult : true
 }
 
-//리터럴
-let kim :'대머리';
-

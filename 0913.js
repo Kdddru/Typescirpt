@@ -24,5 +24,3 @@ var newPerson = {
     email: 'abc@naver.com',
     adult: true
 };
-//리터럴
-var kim;
