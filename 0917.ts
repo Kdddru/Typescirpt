@@ -31,4 +31,31 @@ function 내함수(a:'kim'){
  */
 
 내함수(자료.name);
-내함수(자료1.name)
+내함수(자료1.name);
+
+//함수
+type 함수타입 = (a:string) => number;
+
+let 함수1 : 함수타입 = function(a){
+  return 10
+}
+
+
+type 회원정보타입 = {
+  name : string,
+  plusOne : (x:number) => number,
+  changeName : ()=> void
+}
+
+let 회원정보 = {
+  name: 'kim',
+  plusOne(x){
+    return(x+1)
+  },
+  changeName : () =>{
+    console.log('안녕')
+  }
+}
+
+회원정보.plusOne(1);
+회원정보.changeName();

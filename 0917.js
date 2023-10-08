@@ -22,3 +22,17 @@ function 내함수(a) {
  */
 내함수(자료.name);
 내함수(자료1.name);
+var 함수1 = function (a) {
+    return 10;
+};
+var 회원정보 = {
+    name: 'kim',
+    plusOne: function (x) {
+        return (x + 1);
+    },
+    changeName: function () {
+        console.log('안녕');
+    }
+};
+회원정보.plusOne(1);
+회원정보.changeName();
